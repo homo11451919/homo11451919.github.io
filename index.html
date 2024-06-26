@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('请输入密码','');   
+while (testV < 3) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "114514") { 
+alert('密码正确');   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('密码错误!请重新输入:');   
+}   
+if (pass1!="password" & testV ==3)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script>  
+<html>
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+	<title>homo</title>
+	<link rel="stylesheet" href="/utils/style.css">
+	<script async src="/utils/stat.js"></script>
+</head>
+
+<body>
+	<!-- <h1 style="color:#00f">Welcome to lch&#122;h&#51;473's site!</h1><br> -->
+	<div class="index">
+		<a href="./phi.html?1">Phigros</a><br>
+		<a href="./phi.html?2">Phigros2</a><br>
+		<a href="./phi.html?3">Phigros3</a><br>
+		<a href="./phi.html?4">Phigros4</a><br>
+		<a href="./phi.html?5">Phigros2.0.0</a><br>
+		<!--<a href="./phi6">Phigros模拟器2.0</a><br> -->
+		<!--<a href="./monika">Just Monika</a><br>-->
+	</div>
+</body>
+
+</html>
